@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/digift_task/static/css/main.10833042.css",
-    "main.js": "/digift_task/static/js/main.837f7a74.js",
-    "static/js/272.577a7559.chunk.js": "/digift_task/static/js/272.577a7559.chunk.js",
+    "main.css": "/digift_task/static/css/main.f7a2cc60.css",
+    "main.js": "/digift_task/static/js/main.19d2f497.js",
+    "static/js/272.3f74ae0e.chunk.js": "/digift_task/static/js/272.3f74ae0e.chunk.js",
     "static/js/902.86a64d0b.chunk.js": "/digift_task/static/js/902.86a64d0b.chunk.js",
     "static/js/787.cb1b2e1d.chunk.js": "/digift_task/static/js/787.cb1b2e1d.chunk.js",
     "static/js/323.4cade3a8.chunk.js": "/digift_task/static/js/323.4cade3a8.chunk.js",
     "static/js/961.4d19ac0b.chunk.js": "/digift_task/static/js/961.4d19ac0b.chunk.js",
+    "static/media/Interactive-spheres.svg": "/digift_task/static/media/Interactive-spheres.3fdbca039c69e9ea069d.svg",
     "static/media/amazon.svg": "/digift_task/static/media/amazon.a22fbafc3d31ba63eae1809427f542ca.svg",
     "static/media/aws_logo.svg": "/digift_task/static/media/aws_logo.39cb2982684fee8ef588f7605e0150c9.svg",
     "static/media/header_db-bg.svg": "/digift_task/static/media/header_db-bg.4aed99a4d91e6375bf31ce8d675cff5e.svg",
@@ -14,7 +15,6 @@
     "static/media/businessAPI.svg": "/digift_task/static/media/businessAPI.82c6fc8809b9be60d2de4ce52a4845cd.svg",
     "static/media/ambitious.svg": "/digift_task/static/media/ambitious.d3d34c65d124f778a63cd4e26a3bac3f.svg",
     "static/media/atm.svg": "/digift_task/static/media/atm.9ce853588f3361e9278eab6ea01ee09d.svg",
-    "static/media/Interactive-spheres.jpg": "/digift_task/static/media/Interactive-spheres.e9fc7cd502706e7e37e8.jpg",
     "static/media/logo.svg": "/digift_task/static/media/logo.9ec905d20da87e8731ae07a13fc66834.svg",
     "static/media/social_links.svg": "/digift_task/static/media/social_links.045871e814098deada57eb8bf1b601cd.svg",
     "static/media/Avatar.svg": "/digift_task/static/media/Avatar.e9e559aaaebc7e073b6f6ed2a74965b7.svg",
@@ -25,16 +25,16 @@
     "static/media/ploygon_footer.svg": "/digift_task/static/media/ploygon_footer.2a6bfbabf3d128ad7f1c93c998a6d29f.svg",
     "index.html": "/digift_task/index.html",
     "static/media/getStarted.svg": "/digift_task/static/media/getStarted.30ea34cadcc22ab100d98ffebba1034d.svg",
-    "main.10833042.css.map": "/digift_task/static/css/main.10833042.css.map",
-    "main.837f7a74.js.map": "/digift_task/static/js/main.837f7a74.js.map",
-    "272.577a7559.chunk.js.map": "/digift_task/static/js/272.577a7559.chunk.js.map",
+    "main.f7a2cc60.css.map": "/digift_task/static/css/main.f7a2cc60.css.map",
+    "main.19d2f497.js.map": "/digift_task/static/js/main.19d2f497.js.map",
+    "272.3f74ae0e.chunk.js.map": "/digift_task/static/js/272.3f74ae0e.chunk.js.map",
     "902.86a64d0b.chunk.js.map": "/digift_task/static/js/902.86a64d0b.chunk.js.map",
     "787.cb1b2e1d.chunk.js.map": "/digift_task/static/js/787.cb1b2e1d.chunk.js.map",
     "323.4cade3a8.chunk.js.map": "/digift_task/static/js/323.4cade3a8.chunk.js.map",
     "961.4d19ac0b.chunk.js.map": "/digift_task/static/js/961.4d19ac0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10833042.css",
-    "static/js/main.837f7a74.js"
+    "static/css/main.f7a2cc60.css",
+    "static/js/main.19d2f497.js"
   ]
 }
