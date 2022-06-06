@@ -1,0 +1,1333 @@
+// larger screen
+@media (min-width: 991px) {
+  .header_row {
+    .header_col_db {
+      background: url("../assets/images/header_db-bg.svg") no-repeat;
+    }
+  }
+  .header_section,
+  .second_section {
+    width: 85%;
+    height: auto;
+    margin-top: 4.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 149px 0px;
+    border-radius: 20px;
+    background-image: url("../assets/images/header_bg.png");
+    position: relative;
+    background-color: rgb(0, 105, 224);
+    // z-index: -1;
+    // mix-blend-mode: soft-light;
+
+    #header_zigzag_left {
+      position: absolute;
+      top: -12px;
+      left: 29px;
+    }
+    #header_zigzag_right {
+      position: absolute;
+      top: 2px;
+      right: 15px;
+    }
+
+    .header_bottom_imgWrapper {
+      position: absolute;
+      bottom: 0px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+  .header_section_inner,
+  .second_section_inner {
+    margin: 0px auto;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+    h2 {
+      font-weight: 700;
+      font-size: 62px;
+      line-height: 77px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $whiteColor;
+    }
+
+    #header_section_desc,
+    #second_section_desc {
+      font-weight: 600;
+      width: 300px;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $whiteColor;
+      margin-top: 1rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+  #second_section_title{
+    color: $whiteColor;
+  }
+  .second_section {
+    width: 95%;
+  }
+  .arrivals_container {
+    padding: 5.5rem 3rem;
+
+    .title {
+      padding-left: 1.8rem;
+      margin-bottom: 3rem;
+    }
+
+    main {
+      width: 100%;
+      display: flex;
+      // flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .btn_loadProducts {
+      background-color: transparent;
+      border: 1px solid $grayColor;
+      color: $textGrayColor;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.02em;
+      cursor: pointer;
+    }
+  }
+  .filter_content .filter_title,
+  .filter_header .filter_title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: $blackColor;
+  }
+  .filter_content .filter_title {
+    margin-bottom: 1rem !important;
+  }
+  .filter_container {
+    width: 28%;
+    height: auto;
+    margin-right: 1rem;
+    background: $filterBgColor;
+    border-radius: 12px;
+    padding: 2rem;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    .filter_header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .filter_content {
+      margin-top: 1rem;
+
+      .filter_content_item {
+        margin-bottom: 1rem;
+        display: flex;
+
+        p {
+          margin-left: 1rem;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: -0.02em;
+          color: $textGrayColor;
+        }
+      }
+    }
+  }
+
+  // filtered card component
+  .filter_content_container {
+    width: 31%;
+    height: auto;
+    margin-right: 1rem;
+    background: $filterBgColor;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+
+  // cards style
+  .card_container {
+    background: #ffffff;
+    border: 2px solid #ebeff5;
+    border-radius: 8px;
+    padding: 1rem 1.375rem;
+    margin-bottom: 1rem;
+
+    .card_content_middle {
+      border-bottom: 1px solid $filterBgColor;
+      padding-bottom: 0.85rem;
+
+      .card_content_top {
+        align-items: center;
+        margin-top: 1rem;
+
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: -0.02em;
+          margin-left: 0.85rem;
+          color: $blackColor;
+        }
+      }
+    }
+    .card_content_desc {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: -0.02em;
+      color: $textGrayColor;
+    }
+    .card_content_bottom {
+      padding-top: 0.35rem;
+    }
+    .gift_tag {
+      background: $tagGray;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 84px;
+      height: 34px;
+      color: $darkBrawn;
+      padding: 8px 10px;
+    }
+  }
+
+  // happy customers
+  .happy_customers_container,
+  .buying_cards_container {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #title {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 72px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $blackColor;
+      width: 60%;
+    }
+    .happy_customers_row {
+      margin-top: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .happy_customers_cols {
+        width: 32%;
+        height: 400px;
+        background: $whiteColor;
+        border: 2px solid #ebeff5;
+        border-radius: 8px;
+        padding: 2.5rem;
+        display: flex;
+        margin-bottom: 1.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 1.5rem;
+
+        &:last-child {
+          margin-right: 0px;
+        }
+
+        .cols_text {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: -0.02em;
+          color: $textGrayColor;
+        }
+        .happy_customers_cols_bottom {
+          display: flex;
+
+          .avatar {
+            margin-right: 0.85rem;
+          }
+          p {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: $blackColor;
+          }
+          #position {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.02em;
+            color: #68718d;
+          }
+        }
+      }
+    }
+  }
+
+  .buying_cards_container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    height: 481px;
+
+    .buying_cards_container_inner {
+      background: url("../assets/images/Interactive-spheres.svg");
+      width: 100%;
+      height: inherit;
+      background-color: $blueColor;
+      border-radius: 32px;
+      padding: 125px 0px 125px 104px;
+
+      #text_content {
+        width: 50%;
+        position: relative;
+
+        h2 {
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 77px;
+          letter-spacing: -0.02em;
+          color: $whiteColor;
+        }
+
+        #zigzag_icon {
+          position: absolute;
+          bottom: 8px;
+          right: 211px;
+        }
+      }
+    }
+  }
+
+  // business API
+  .section_businessApi {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 5.5rem 0rem;
+
+    .col {
+      width: 40%;
+      h1 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 67px;
+        letter-spacing: -0.03em;
+        margin-bottom: 1.5rem;
+
+        span {
+          color: $blueColor;
+        }
+      }
+      .text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: $textGrayColor;
+      }
+    }
+
+    #business_api_col {
+      width: 60%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+
+      img {
+        width: 100%;
+        height: fit-content;
+      }
+    }
+  }
+
+  .btn_getStarted {
+    display: flex;
+    align-items: center;
+  }
+  .btn_signin {
+    background-color: transparent;
+    color: $textGrayColor;
+    border: 1px solid $grayColor;
+    margin-left: 1.2rem;
+  }
+
+  //
+  .equalCard_wrapper {
+    display: flex;
+    width: 95%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    padding: 5.5rem 0rem;
+
+    .equalCard_container {
+      position: relative;
+      background: rgba(194, 221, 255, 0.2);
+      width: 47%;
+      height: 730px;
+      border-radius: 32px;
+      margin-right: 2rem;
+      padding: 72px 0px 0px 64px;
+
+      &:last-child {
+        margin-right: 0px;
+      }
+
+      .equalCard_top {
+        width: 95%;
+
+        h2 {
+          font-weight: 700;
+          font-size: 56px;
+          line-height: 67px;
+          letter-spacing: -0.03em;
+          margin-bottom: 1.5rem;
+
+          span {
+            color: $blueColor;
+          }
+        }
+      }
+      .equalCard_bottom {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+// medium size laptop
+@media (max-width: 1024px) {
+  // business API
+  .section_businessApi {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 5.5rem 0rem;
+
+    .col {
+      width: 50%;
+      h1 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 67px;
+        letter-spacing: -0.03em;
+        margin-bottom: 1.5rem;
+
+        span {
+          color: $blueColor;
+        }
+      }
+      .text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: $textGrayColor;
+      }
+    }
+
+    #business_api_col {
+      width: 45%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+
+      img {
+        width: 100%;
+        height: fit-content;
+      }
+    }
+  }
+
+  .btn_getStarted {
+    display: flex;
+    align-items: center;
+  }
+  .btn_signin {
+    background-color: transparent;
+    color: $textGrayColor;
+    border: 1px solid $grayColor;
+    margin-left: 1.2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .header_row {
+    .header_col_db {
+      background: url("../assets/images/header_db-bg.svg") no-repeat;
+    }
+  }
+  .header_section,
+  .second_section {
+    width: 95%;
+    height: auto;
+    margin-top: 4.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 149px 0px;
+    border-radius: 20px;
+    background-image: url("../assets/images/header_bg.png");
+    position: relative;
+    background-color: rgb(0, 105, 224);
+
+    #header_zigzag_left {
+      position: absolute;
+      top: -12px;
+      left: 29px;
+    }
+    #header_zigzag_right {
+      position: absolute;
+      top: 2px;
+      right: 15px;
+    }
+
+    .header_bottom_imgWrapper {
+      position: absolute;
+      bottom: 0px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  .header_section_inner,
+  .second_section_inner {
+    margin: 0px auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+    h2 {
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 77px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $whiteColor;
+    }
+
+    #header_section_desc,
+    #second_section_desc {
+      font-weight: 600;
+      width: 300px;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $whiteColor;
+      margin-top: 1rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+  #second_section_title {
+    color: $whiteColor;
+  }
+  .arrivals_container {
+    padding: 5.5rem 3rem;
+
+    .title {
+      padding-left: 1.8rem;
+      margin-bottom: 3rem;
+    }
+
+    main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      // flex-wrap: wrap;
+    }
+    .btn_loadProducts {
+      background-color: transparent;
+      border: 1px solid $grayColor;
+      color: $textGrayColor;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.02em;
+      cursor: pointer;
+    }
+  }
+  .filter_content .filter_title,
+  .filter_header .filter_title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: $blackColor;
+  }
+  .filter_content .filter_title {
+    margin-bottom: 1rem !important;
+  }
+  .filter_container {
+    width: 40%;
+    height: auto;
+    margin-right: 1rem;
+    background: $filterBgColor;
+    border-radius: 12px;
+    padding: 2rem;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    .filter_header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .filter_content {
+      margin-top: 1rem;
+
+      .filter_content_item {
+        margin-bottom: 1rem;
+        display: flex;
+
+        p {
+          margin-left: 1rem;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: -0.02em;
+          color: $textGrayColor;
+        }
+      }
+    }
+  }
+
+  // filtered card component
+  .filter_content_container {
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: $filterBgColor;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  // cards style
+  .card_container {
+    width: 45%;
+    background: #ffffff;
+    border: 2px solid #ebeff5;
+    border-radius: 8px;
+    padding: 1rem 1.375rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+    .card_content_middle {
+      border-bottom: 1px solid $filterBgColor;
+      padding-bottom: 0.85rem;
+
+      .card_content_top {
+        align-items: center;
+        margin-top: 1rem;
+
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: -0.02em;
+          margin-left: 0.85rem;
+          color: $blackColor;
+        }
+      }
+    }
+    .card_content_desc {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: -0.02em;
+      color: $textGrayColor;
+    }
+    .card_content_bottom {
+      padding-top: 0.35rem;
+    }
+    .gift_tag {
+      background: $tagGray;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 84px;
+      height: 34px;
+      color: $darkBrawn;
+      padding: 8px 10px;
+    }
+  }
+
+  // happy customers
+  .happy_customers_container,
+  .buying_cards_container {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #title {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 72px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $blackColor;
+      width: 90%;
+    }
+    .happy_customers_row {
+      margin-top: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .happy_customers_cols {
+        width: 45%;
+        height: 400px;
+        background: $whiteColor;
+        border: 2px solid #ebeff5;
+        border-radius: 8px;
+        padding: 2.5rem;
+        display: flex;
+        margin-bottom: 1.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 1.5rem;
+
+        &:last-child {
+          margin-right: 0px;
+        }
+
+        .cols_text {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: -0.02em;
+          color: $textGrayColor;
+        }
+        .happy_customers_cols_bottom {
+          display: flex;
+
+          .avatar {
+            margin-right: 0.85rem;
+          }
+          p {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: $blackColor;
+          }
+          #position {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.02em;
+            color: #68718d;
+          }
+        }
+      }
+    }
+  }
+
+  .buying_cards_container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    height: auto;
+
+    .buying_cards_container_inner {
+      background: url("../assets/images/Interactive-spheres.svg") no-repeat;
+      width: 100%;
+      height: inherit;
+      background-color: $blueColor;
+      border-radius: 32px;
+      padding: 125px 0px 125px 104px;
+
+      #text_content {
+        width: 80%;
+        position: relative;
+
+        h2 {
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 77px;
+          letter-spacing: -0.02em;
+          color: $whiteColor;
+        }
+
+        #zigzag_icon {
+          position: absolute;
+          bottom: 8px;
+          right: 211px;
+        }
+      }
+    }
+  }
+
+  // business API
+  .section_businessApi {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 5.5rem 0rem;
+
+    .col {
+      width: 50%;
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 67px;
+        letter-spacing: -0.03em;
+        margin-bottom: 1.5rem;
+
+        span {
+          color: $blueColor;
+        }
+      }
+      .text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: $textGrayColor;
+      }
+    }
+
+    #business_api_col {
+      width: 45%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+
+      img {
+        width: 100%;
+        height: fit-content;
+      }
+    }
+  }
+
+  .btn_getStarted {
+    display: flex;
+    align-items: center;
+  }
+  .btn_signin {
+    background-color: transparent;
+    color: $textGrayColor;
+    border: 1px solid $grayColor;
+    margin-left: 1.2rem;
+  }
+
+  //
+  .equalCard_wrapper {
+    display: flex;
+    width: 95%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    padding: 5.5rem 0rem;
+
+    .equalCard_container {
+      position: relative;
+      background: rgba(194, 221, 255, 0.2);
+      width: 47%;
+      height: 730px;
+      border-radius: 32px;
+      margin-right: 2rem;
+      padding: 72px 0px 0px 64px;
+
+      &:last-child {
+        margin-right: 0px;
+      }
+
+      .equalCard_top {
+        width: 95%;
+
+        h2 {
+          font-weight: 700;
+          font-size: 42px;
+          line-height: 50px;
+          letter-spacing: -0.03em;
+          margin-bottom: 1.5rem;
+
+          span {
+            color: $blueColor;
+          }
+        }
+      }
+      .equalCard_bottom {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+// tablet screen and below
+@media (max-width: 768px) {
+  .header_row {
+    .header_col_db {
+      background: url("../assets/images/header_db-bg.svg") no-repeat;
+    }
+  }
+
+  .header_section,
+  .second_section {
+    width: 90%;
+    height: auto;
+    margin-top: 4.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 149px 0px;
+    border-radius: 20px;
+    background-image: url("../assets/images/header_bg.png");
+    position: relative;
+    background-color: rgb(0, 105, 224);
+    // z-index: -1;
+    // mix-blend-mode: soft-light;
+
+    #header_zigzag_left {
+      position: absolute;
+      top: -12px;
+      left: 8px;
+    }
+    #header_zigzag_right {
+      position: absolute;
+      top: 2px;
+      right: 0px;
+    }
+
+    .header_bottom_imgWrapper {
+      position: absolute;
+      bottom: 0px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  .header_section_inner,
+  .second_section_inner {
+    margin: 0px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+    h2 {
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 60px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $whiteColor;
+    }
+
+    #header_section_desc,
+    #second_section_desc {
+      font-weight: 600;
+      width: 300px;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $whiteColor;
+      margin-top: 1rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+  #second_section_title{
+    color: $whiteColor;
+  }
+  .second_section {
+    width: 95%;
+  }
+  .arrivals_container {
+    padding: 5.5rem 3rem;
+
+    .title {
+      padding-left: 1.8rem;
+      margin-bottom: 3rem;
+    }
+
+    main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      // flex-wrap: wrap;
+    }
+    .btn_loadProducts {
+      background-color: transparent;
+      border: 1px solid $grayColor;
+      color: $textGrayColor;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.02em;
+      cursor: pointer;
+    }
+  }
+  .filter_content .filter_title,
+  .filter_header .filter_title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: $blackColor;
+  }
+  .filter_content .filter_title {
+    margin-bottom: 1rem !important;
+  }
+  .filter_container {
+    width: 70%;
+    height: auto;
+    margin-right: 1rem;
+    background: $filterBgColor;
+    border-radius: 12px;
+    padding: 2rem;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    .filter_header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .filter_content {
+      margin-top: 1rem;
+
+      .filter_content_item {
+        margin-bottom: 1rem;
+        display: flex;
+
+        p {
+          margin-left: 1rem;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: -0.02em;
+          color: $textGrayColor;
+        }
+      }
+    }
+  }
+
+  // filtered card component
+  .filter_content_container {
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: $filterBgColor;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  // cards style
+  .card_container {
+    width: 100%;
+    background: #ffffff;
+    border: 2px solid #ebeff5;
+    border-radius: 8px;
+    padding: 1rem 1.375rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+    .card_content_middle {
+      border-bottom: 1px solid $filterBgColor;
+      padding-bottom: 0.85rem;
+
+      .card_content_top {
+        align-items: center;
+        margin-top: 1rem;
+
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: -0.02em;
+          margin-left: 0.85rem;
+          color: $blackColor;
+        }
+      }
+    }
+    .card_content_desc {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: -0.02em;
+      color: $textGrayColor;
+    }
+    .card_content_bottom {
+      padding-top: 0.35rem;
+    }
+    .gift_tag {
+      background: $tagGray;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 84px;
+      height: 34px;
+      color: $darkBrawn;
+      padding: 8px 10px;
+    }
+  }
+
+  // happy customers
+  .happy_customers_container,
+  .buying_cards_container {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #title {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 72px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: $blackColor;
+      width: 90%;
+    }
+    .happy_customers_row {
+      margin-top: 4rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .happy_customers_cols {
+        width: 45%;
+        height: auto;
+        background: $whiteColor;
+        border: 2px solid #ebeff5;
+        border-radius: 8px;
+        padding: 2.5rem;
+        display: flex;
+        margin-bottom: 1.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 1.5rem;
+
+        &:last-child {
+          margin-right: 0px;
+        }
+
+        .cols_text {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: -0.02em;
+          color: $textGrayColor;
+        }
+        .happy_customers_cols_bottom {
+          display: flex;
+          margin-top: 3rem;
+
+          .avatar {
+            margin-right: 0.85rem;
+          }
+          p {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: $blackColor;
+          }
+          #position {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.02em;
+            color: #68718d;
+          }
+        }
+      }
+    }
+  }
+
+  .buying_cards_container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    height: auto;
+
+    .buying_cards_container_inner {
+      background: url("../assets/images/Interactive-spheres.svg") no-repeat;
+      width: 100%;
+      height: inherit;
+      background-color: $blueColor;
+      border-radius: 32px;
+      padding: 125px 0px 125px 104px;
+
+      #text_content {
+        width: 80%;
+        position: relative;
+
+        h2 {
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 77px;
+          letter-spacing: -0.02em;
+          color: $whiteColor;
+        }
+
+        #zigzag_icon {
+          position: absolute;
+          bottom: 8px;
+          right: 211px;
+        }
+      }
+    }
+  }
+
+  // business API
+  .section_businessApi {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 5.5rem 0rem;
+
+    .col {
+      width: 50%;
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 67px;
+        letter-spacing: -0.03em;
+        margin-bottom: 1.5rem;
+
+        span {
+          color: $blueColor;
+        }
+      }
+      .text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: $textGrayColor;
+      }
+    }
+
+    #business_api_col {
+      width: 45%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+
+      img {
+        width: 100%;
+        height: fit-content;
+      }
+    }
+  }
+
+  .btn_getStarted {
+    display: flex;
+    align-items: center;
+  }
+  .btn_signin {
+    background-color: transparent;
+    color: $textGrayColor;
+    border: 1px solid $grayColor;
+    margin-left: 1.2rem;
+  }
+
+  //
+  .equalCard_wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    padding: 5.5rem 0rem;
+
+    .equalCard_container {
+      position: relative;
+      background: rgba(194, 221, 255, 0.2);
+      width: 100%;
+      height: 730px;
+      border-radius: 32px;
+      margin-bottom: 2rem;
+      padding: 72px 0px 0px 64px;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+
+      .equalCard_top {
+        width: 95%;
+
+        h2 {
+          font-weight: 700;
+          font-size: 56px;
+          line-height: 67px;
+          letter-spacing: -0.03em;
+          margin-bottom: 1.5rem;
+
+          span {
+            color: $blueColor;
+          }
+        }
+      }
+      .equalCard_bottom {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
