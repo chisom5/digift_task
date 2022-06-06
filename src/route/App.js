@@ -26,7 +26,7 @@ const FourZeroFour = () => (
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/digift">
+      <HashRouter basename="/">
         <Suspense fallback={<LoadingMessage />}>
           <Switch>
             <Route exact path="/" component={PersonalPage} />
